@@ -1,0 +1,63 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    line-height:20px;
+}
+
+.container-general{
+    width:100%;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container-cabecero{
+    width:100%;
+    max-width:800px;
+    height:500px;
+    background-image:url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/apple-pie/images/apple-pie.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+}
+h1{
+    color:white;
+    font-weight: 100;
+    font-size: 3em;
+    text-align: center;
+    
+}
+
+h2{
+    padding-bottom:20px;
+    font-weight:300;
+}
+
+.recipe-info{
+    margin: 3em;
+    padding-bottom: 2.5em;
+    border-bottom: 1px solid #afafaf;
+}
+
+ul{
+    list-style-type: '-';
+    list-style-position: inside;
+}
+
+.recipe-info:last-child{
+    border-bottom:none;
+}
+
+.cook-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cook-info > img{
+    width:100%;
+    max-width: 350px;
+    padding-top:2em;
+}
